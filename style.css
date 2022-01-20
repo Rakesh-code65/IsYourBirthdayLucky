@@ -1,4 +1,25 @@
 .header{
     text-align: center;
     color: brown;
+    margin-top: 100px;
+}
+
+.container{
+margin: auto;
+width: 50%;
+height: 10rem;
+border: 1px solid green;
+padding: auto;
+margin-top: 5rem;
+background-color: rgb(86, 221, 86);
+}
+#date-of-birth{
+    margin: 1.5rem;
+    /* text-align: center; */
+}
+#lucky-number{
+    margin-bottom: 1rem;
+}
+#check-number{
+
 }
