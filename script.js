@@ -9,7 +9,7 @@ function compareValues(sum,Number)
 {
  
   if(sum%luckyNumber.value === 0){
-   outputBox.innerText= "Voila Your Birthday is lucky 🎉";
+   outputBox.innerText= "WoW Your Birthday is lucky 🎉";
   }
   else {
       outputBox.innerText= "Sorry !! Your Birthday is not lucky 😥";
