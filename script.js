@@ -16,6 +16,9 @@ function compareValues(sum,number)
   }
   else {
       outputBox.innerText= "Sorry !! Your Birthday is not lucky 😥";
+    if(!number)
+     outputBox.innerText= "Invalid Input";
+   
   }
 }
 
