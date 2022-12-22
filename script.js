@@ -5,11 +5,14 @@ const outputBox = document.querySelector(".output");
 
 
 
-function compareValues(sum,Number)
+function compareValues(sum,number)
 {
  
   if(sum%luckyNumber.value === 0){
    outputBox.innerText= "WoW Your Birthday is lucky 🎉";
+   
+   if(!number)
+    outputBox.innerText= "Invalid Input";
   }
   else {
       outputBox.innerText= "Sorry !! Your Birthday is not lucky 😥";
